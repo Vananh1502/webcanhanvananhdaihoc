@@ -1,0 +1,15 @@
+* {
+  border: none;
+  margin: 5px;
+}
+.tieude {
+  font-size: 50px;
+}
+ul li a {
+  text-decoration: none;
+  color: rgb(132, 132, 241);
+}
+img{
+  width: 1280px;
+  overflow: hidden;
+}

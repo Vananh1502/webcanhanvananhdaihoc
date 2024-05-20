@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <head>
+            <title>Document</title>
+        </head>
+        <body>
+            <p><strong> Image Transparency</strong></p>
+            <p>The opacity property is often used together with the: hover selecyor to change the opacity on mouse-over:</p>
+       </body>
+        </html>
+</html>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .img-container {
+                display: flex;
+                gap: 10px;
+            }
+            .img-container .img-item {
+                width: 25%;
+                opacity: 0.7;
+                transition: 0.5s ease;
+            }
+            .img-container .img-item:hover {
+                opacity: 1;
+            }
+            .img-container img {
+                max-width: 100%;
+            }
+        </style>
+        <div class="container">
+            <div class="img-container">
+                <img
+                    src="https://mytourcdn.com/upload_images/Image/Location/5_4_2016/du-lich-Phu-yen-mytour-10.jpg"
+                    alt="Ảnh 1"
+                    class="img-item"
+                />
+                <img
+                    src="https://mytourcdn.com/upload_images/Image/Location/5_4_2016/du-lich-Phu-yen-mytour-11.jpg"
+                    alt="Ảnh 2"
+                    class="img-item"
+                />
+                <img
+                    src="https://mytourcdn.com/upload_images/Image/Location/5_4_2016/du-lich-Phu-yen-mytour-14.jpg"
+                    alt="Ảnh 3"
+                    class="img-item"
+                />
+            </div>
+        </div>
+    </body>
+</html>

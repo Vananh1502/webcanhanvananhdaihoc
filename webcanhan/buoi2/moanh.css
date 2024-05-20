@@ -1,0 +1,10 @@
+.anh {
+  display: flex;
+}
+.anh img {
+  width: 50vh;
+  height: 50vh;
+}
+.anh img:hover {
+  opacity: 0.5;
+}

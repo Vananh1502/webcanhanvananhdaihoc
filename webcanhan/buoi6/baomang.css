@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: rgb(248, 244, 244) beb;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fffcfc;
+    color: white;
+  }
+  .baomang {
+    padding-left: 50px;
+    color: white;
+  }
+  
+  .container {
+    position: relative;
+    max-width: 1200px;
+    margin: 20px auto;
+    overflow: hidden; 
+    background-color: rgb(202, 56, 58); 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .column {
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    overflow: hidden; 
+  }
+  
+  img {
+    height: 200px;
+    width: 350px;
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .text {
+    color: #ffffff;
+  }
+  
+  .back-button {
+    position: fixed;
+    left: 20px; 
+    top: 50%;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: left 0.3s ease-in-out;
+  }
+  p {
+    color: white;
+  }
+  
