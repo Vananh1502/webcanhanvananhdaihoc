@@ -1,0 +1,39 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+.bo {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bo:hover {
+  transform: scale(1.5);
+  filter: brightness(0.5);
+}
+.lop3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 20px;
+}
+.lop3 i {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+.bo:hover .lop3 i {
+  opacity: 1;
+}
